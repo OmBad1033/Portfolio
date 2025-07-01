@@ -17,26 +17,26 @@ export function Model(props: ModelProps) {
     const tl = gsap.timeline();
     tl.from(shapeContainer.current.position, {
       y:5,
-      duration: 3,
+      duration: 2,
       ease: "power2.out",
     })
     tl.from(ringContainer.current.position, {
       y:5,
-      duration: 2,
+      duration: 1,
       ease: "power2.out",
     })
     tl.from(ringContainer.current.rotation, {
       x:0.8,
       y:0,
       z:0,
-      duration: 10,
+      duration: 5,
       ease: "power1.inOut",
     })
     tl.from(shereContainer.current.rotation, {
       x:0,
       y:Math.PI,
       z:-Math.PI,
-      duration: 10,
+      duration: 5,
       ease: "power1.inOut",
     },"-=25%");
   })
