@@ -29,10 +29,10 @@ const AnimatedHeaderSection = (props: Props) => {
       {
         opacity: 0,
         y: "200",
-        duration: 2,
+        duration: 1,
         ease: "circ.out",
       },
-      "<+1.2"
+      "<+0.5"
     );
   }, []);
   return (

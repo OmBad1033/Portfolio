@@ -1,9 +1,10 @@
-import React from 'react'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import ServiceSummary from './sections/ServiceSummary'
 import Services from './sections/Services'
 import ReactLenis from 'lenis/react'
+import About from './sections/About'
+import Work from './sections/Work'
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
       <Hero/>
       <ServiceSummary/>
       <Services />
-      <section id="work"className='min-h-screen bg-green-400'/>
+      <About/>
+      <Work />
+      <section id="worked"className='min-h-screen bg-green-400'/>
 
     </ReactLenis>
   )
