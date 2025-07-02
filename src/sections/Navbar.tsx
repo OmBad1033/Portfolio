@@ -102,7 +102,7 @@ function Navbar({}: Props) {
     <>
       <nav
         ref={navRef}
-        className="fixed flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
+        className="fixed z-50 flex flex-col justify-between w-full h-full px-10 uppercase bg-black text-white/80 py-28 gap-y-10 md:w-1/2 md:left-1/2"
       >
         <div className="flex flex-col gap-y-2 text-5xl md:text-6xl lg:text-8xl">
           {["home", "services", "about", "work", "contact"].map(
