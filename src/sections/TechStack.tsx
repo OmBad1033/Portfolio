@@ -107,7 +107,7 @@ const TechStack = ({ techData=techStackData }: TechStackProps) => {
   }, [techData]);
 
   return (
-    <section className="h-[1000px] flex justify-center overflow-hidden w-full relative bg-gradient-to-br from-black via-zinc-900 to-black">
+    <section className="h-[800px] flex justify-center overflow-hidden w-full relative bg-gradient-to-br from-black via-zinc-900 to-black">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-stone-400/5 rounded-full blur-3xl animate-pulse"></div>

@@ -1,16 +1,9 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
+import { contactInfo } from "../constants";
 
 const Contact = () => {
   const [copiedEmail, setCopiedEmail] = useState(false);
-
-  const contactInfo = {
-    email: "om.bdvche@gmail.com", // Replace with your actual email
-    linkedin: "https://linkedin.com/in/om-bdvche", // Replace with your LinkedIn
-    github: "https://github.com/om-bdvche", // Replace with your GitHub
-    instagram: "https://instagram.com/om.bdvche", // Replace with your Instagram
-    resumeUrl: "/om_bdvche_cv.pdf",
-  };
 
   const handleCopyEmail = async () => {
     try {

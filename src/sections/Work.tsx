@@ -97,7 +97,9 @@ function Work({}: Props) {
                   onMouseEnter={() => handleMouseEnter(index)}
                   onMouseLeave={() => handleMouseLeave()}
                 >
+                  <a href={project.href} target="_blank" rel="noreferrer">
                   {project.name}
+                  </a>
                 </h2>
                 <Icon
                   icon="icon-park:arrow-right-up"
