@@ -71,7 +71,7 @@ function Work({}: Props) {
   };
 
   return (
-    <section id="work" className="flex flex-col min-h-screen">
+    <section id="work" className="flex flex-col min-h-screen bg-white/95">
       <AnimatedHeaderSection
         title="Work"
         description={text}

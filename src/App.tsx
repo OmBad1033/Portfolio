@@ -5,18 +5,22 @@ import Services from './sections/Services'
 import ReactLenis from 'lenis/react'
 import About from './sections/About'
 import Work from './sections/Work'
+import ContactSummary from './sections/ContactSummary'
+import TechStack from './sections/TechStack'
+import Contact from './sections/Contact'
 
 const App = () => {
   return (
     <ReactLenis root className='relative w-screen min-h-screen overflow-x-auto'>
       <Navbar/>
       <Hero/>
+      <TechStack />
       <ServiceSummary/>
       <Services />
       <About/>
       <Work />
-      <section id="worked"className='min-h-screen bg-green-400'/>
-
+      <ContactSummary />
+      <Contact />
     </ReactLenis>
   )
 }
